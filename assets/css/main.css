@@ -1,35 +1,3 @@
-
-/*
-Theme Name: Hexino
-Author: ThemesGround
-Description:  Hexino HTML Template
-Version: 1.4
-License: GNU General Public License v2 or later
-Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
-Text Domain:  Hexino
-
-/* TABLE OF CONTENTS
-
-1.   Body
-2.   Layout
-3.   Header
-4.   Side menu
-5.   Slider
-6.   Top Banner Section 
-8.   Home Tabs
-9.   Products Grid 
-10.  Products List
-11.  Latest-Blog
-12.  Sidebar
-13.  Product View
-14.  Footer
-15.  Responsive
-16.  Testimonials
-
-/* */
-/*===================================================================================*/
-/*  Body
-/*===================================================================================*/
 .green-text {
   color: #abd07e !important;
 }
@@ -102,8 +70,9 @@ a:active,
 a:focus {
   text-decoration: none;
 }
-img[src="assets/images/blank.gif"] {
-  background: url("../images/ajax.gif") no-repeat scroll center center #ffffff;
+.logo img{
+	/*width:280px; */
+	height:50px;
 }
 
 .btn-upper {
