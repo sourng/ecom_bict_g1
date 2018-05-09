@@ -34,6 +34,9 @@
   background-color: #12cca7 !important;
   color: #fff !important;
 }
+.logo img{
+width: 100%;
+}
 .inline {
   display: inline-block;
   vertical-align: top;
@@ -56,10 +59,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 
 }
-.logo img{
-  width: 100%;
-  height: 50px;
-}
+
 .cnt-home {background-color: #fff;}
 
 ul {
