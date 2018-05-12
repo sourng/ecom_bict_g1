@@ -34,12 +34,14 @@
                       include_once 'include/v_banner_slide.php'; 
                       include_once 'include/v_products_new.php'; 
                       include_once 'include/v_2banner.php'; 
-                      include_once 'include/v_products_featured.php'; 
+                      //include_once 'include/v_products_featured.php'; 
                       include_once 'include/v_banner.php';
-                      include_once 'include/v_best_seller.php';
-                      include_once 'include/v_blog_latest.php';
-                      include_once 'include/v_new_arriavls.php';
-                     
+                      //include_once 'include/v_best_seller.php';
+                      //include_once 'include/v_blog_latest.php';
+                      //include_once 'include/v_new_arriavls.php';
+                  	  include_once 'include/v_banner_category.php';
+		              include_once 'include/v_products_filter.php';
+		              include_once 'include/v_products.php';
                     ?>
 
 

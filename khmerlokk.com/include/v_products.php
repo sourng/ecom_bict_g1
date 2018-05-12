@@ -4,7 +4,7 @@
               <div class="category-product">
                 <div class="row">
 
-                  <?php  for ($i=1; $i <=31 ; $i++) { ?>
+                  <?php  for ($i=1; $i <=11 ; $i++) { ?>
                      <div class="col-sm-6 col-md-4 wow fadeInUp">
                         <div class="products">
                           <div class="product">
@@ -58,7 +58,7 @@
             
             <div class="tab-pane "  id="list-container">
               <div class="category-product">
-                <?php  for ($i=1; $i <=31 ; $i++) { ?>
+                <?php  for ($i=1; $i <=11 ; $i++) { ?>
                 <div class="category-product-inner wow fadeInUp">
                   <div class="products">
                     <div class="product-list product">
