@@ -81,7 +81,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 logo-holder">       
           <div class="logo"> 
-            <a href="<?php echo site_url();?>home"> <img src="<?php echo base_url();?>assets/ecommerce.png" alt="logo"> </a> 
+            <a href="<?php echo site_url();?>/home"> <img src="<?php echo base_url();?>assets/ecommerce.png" alt="logo"> </a> 
           </div>
           <!-- /.logo --> 
         </div>
@@ -316,6 +316,13 @@
                         </nav>
                         <!-- /.megamenu-horizontal -->
                     </div>
+                    <?php
+                      $this->load->view('includes/v_hot_deals');
+                      $this->load->view('includes/v_products_tag');
+                      $this->load->view('includes/v_special_deals');
+
+                      
+                    ?>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">
 			<div id="hero">
@@ -1505,6 +1512,11 @@
 
 </div>
 
+<?php
+
+$this->load->view('includes/v_brands_carousel');
+$this->load->view('includes/v_footer');
+?>
 
 
 

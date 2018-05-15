@@ -3,7 +3,7 @@ class Home extends CI_Controller {
     
   function __construct() {
       parent::__construct();      
-      $this->load->helper('text');
+      $this->load->helper('url');
       //$this->load->database();
       //$this->perPage = 5;
      // $this->starOrder=4;
