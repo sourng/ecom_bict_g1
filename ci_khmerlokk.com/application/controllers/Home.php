@@ -3,8 +3,8 @@ class Home extends CI_Controller {
     
   function __construct() {
       parent::__construct();      
-      $this->load->helper('url');
-      //$this->load->database();
+   
+      // $this->load->database();
       //$this->perPage = 5;
      // $this->starOrder=4;
 
@@ -17,6 +17,7 @@ class Home extends CI_Controller {
 	{
     
 		$this->load->view('home');
+    // echo "Hello";
 		
 	}
   public function rigister()
@@ -24,6 +25,10 @@ class Home extends CI_Controller {
     $this->load->view('includes/v_rigister');
 
   
+  }
+
+  public function testing(){
+    echo "Testing";
   }
 
 }
