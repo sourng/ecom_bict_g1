@@ -36,44 +36,9 @@
 <header class="header-style-1"> 
   
   <!-- ============================================== TOP MENU ============================================== -->
-  <div class="top-bar animate-dropdown">
-    <div class="container">
-      <div class="header-top-inner">
-        <div class="cnt-account">
-          <ul class="list-unstyled">
-            <li><a href="#"><i class="icon fa fa-user"></i>My Account</a></li>
-            <li><a href="#"><i class="icon fa fa-heart"></i>Wishlist</a></li>
-            <li><a href="#"><i class="icon fa fa-shopping-cart"></i>My Cart</a></li>
-            <li><a href="#"><i class="icon fa fa-check"></i>Checkout</a></li>
-            <li><a href="#"><i class="icon fa fa-lock"></i>Login</a></li>
-          </ul>
-        </div>
-        <!-- /.cnt-account -->
-        
-        <div class="cnt-block">
-          <ul class="list-unstyled list-inline">
-            <li class="dropdown dropdown-small"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><span class="value">KM </span><b class="caret"></b></a>
-              <ul class="dropdown-menu">                
-                <li><a href="#">KM</a></li>
-                <li><a href="#">USD</a></li>
-              </ul>
-            </li>
-            <li class="dropdown dropdown-small"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><span class="value">English </span><b class="caret"></b></a>
-              <ul class="dropdown-menu">
-              	<li><a href="#">Khmer</a></li>
-                <li><a href="#">English</a></li>              
-              </ul>
-            </li>
-          </ul>
-          <!-- /.list-unstyled --> 
-        </div>
-        <!-- /.cnt-cart -->
-        <div class="clearfix"></div>
-      </div>
-      <!-- /.header-top-inner --> 
-    </div>
-    <!-- /.container --> 
-  </div>
+  <?php
+    $this->load->view('includes/v_nav_top');
+  ?>
   <!-- /.header-top --> 
   <!-- ============================================== TOP MENU : END ============================================== -->
   <div class="main-header">
@@ -209,8 +174,8 @@
                       $this->load->view('includes/v_hot_deals');
                       $this->load->view('includes/v_products_tag');
                       $this->load->view('includes/v_special_deals');
-                      $this->load->view('includes/v_newsletter.php');
-                      $this->load->view('includes/v_members.php');
+                      $this->load->view('includes/v_newsletter');
+                      $this->load->view('includes/v_members');
                     ?>
                       <div class="home-banner"> <img src="assets/images/banners/LHS-banner.jpg" alt="Image"> </div>
                       <div class="home-banner"> <img src="assets/images/banners/LHS-banner.jpg" alt="Image"> </div>
@@ -221,13 +186,13 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">
 			 <?php
-           $this->load->view('includes/v_banner_slide.php');
-           $this->load->view('includes/v_products_new.php');
-           $this->load->view('includes/v_banner.php');
+           $this->load->view('includes/v_banner_slide');
+           $this->load->view('includes/v_products_new');
+           $this->load->view('includes/v_banner');
            $this->load->view('includes/v_banner2.php');
-           $this->load->view('includes/v_banner_category.php');
-           $this->load->view('includes/v_products_filter.php');
-           $this->load->view('includes/v_products.php');
+           $this->load->view('includes/v_banner_category');
+           $this->load->view('includes/v_products_filter');
+           $this->load->view('includes/v_products');
 
 
            ?>
