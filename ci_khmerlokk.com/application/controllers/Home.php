@@ -1,21 +1,18 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
+  function __construct() 
+    { 
+        parent::__construct();
+
+        $this->load->helper('form'); 
+        $this->load->helper('url');
+       $this->load->model('m_crud', '', true);  
     
-  function __construct() {
-      parent::__construct();      
-      $this->load->helper('url');
-      //$this->load->database();
-      //$this->perPage = 5;
-     // $this->starOrder=4;
-
-      // $this->load->model('Crud_model','m_crud',True);    
-
-      date_default_timezone_set('Asia/Phnom_Penh');
-
-	}
+    }
 	public function index()
 	{
-		$this->load->view('homes');
+		$this->load->view('home');
 		
 	}
 

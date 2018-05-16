@@ -81,7 +81,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 logo-holder">       
           <div class="logo"> 
-            <a href="<?php echo site_url();?>/home"> <img src="<?php echo base_url();?>assets/images/logo3DKH.png" alt="logo"> </a> 
+            <a href="<?php echo site_url();?>home"> <img src="<?php echo base_url();?>assets/images/logo3DKH.png" alt="logo"> </a> 
           </div>
           <!-- /.logo --> 
         </div>
