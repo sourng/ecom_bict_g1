@@ -31,7 +31,7 @@
 
     </head>
 
-    <body>
+    <body style="background-color:#19b9e7";>
 
         <!-- Top content -->
         <div class="top-content">

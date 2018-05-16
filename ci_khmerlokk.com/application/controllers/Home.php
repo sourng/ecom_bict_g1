@@ -21,8 +21,8 @@ class Home extends CI_Controller {
 	}
   public function rigister()
   {
-    //$this->load->view('includes/rigister');
-    echo "hello";
+    $this->load->view('includes/v_rigister');
+
   
   }
 
