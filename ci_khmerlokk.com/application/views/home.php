@@ -46,11 +46,9 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 logo-holder">       
           <div class="logo"> 
-<<<<<<< HEAD
-            <a href="<?php echo site_url();?>home"> <img src="<?php echo base_url();?>assets/images/logo3DKH.png" alt="logo"> </a> 
-=======
-            <a href="<?php echo site_url();?>#"> <img src="<?php echo base_url();?>assets/images/logo3DKH.png" alt="logo"> </a> 
->>>>>>> cbdf876c6443c4ebc97851d1b624462d92a353be
+ <a href="<?php echo site_url();?>home"> <img src="<?php echo base_url();?>assets/images/logo3DKH.png" alt="logo"> </a> 
+
+            
           </div>
           <!-- /.logo --> 
         </div>

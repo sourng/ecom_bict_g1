@@ -35,10 +35,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-<<<<<<< HEAD
 //$config['index_page'] = 'index.php';
-=======
->>>>>>> cbdf876c6443c4ebc97851d1b624462d92a353be
 $config['index_page'] = '';
 
 /*
@@ -56,17 +53,12 @@ $config['index_page'] = '';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-<<<<<<< HEAD
 //$config['uri_protocol']	= 'REQUEST_URI';
 $config['uri_protocol']	= 'Auto';
 
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
 $config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
-=======
-// $config['uri_protocol']	= 'REQUEST_URI';
-$config['uri_protocol'] = "REQUEST_URI";
->>>>>>> cbdf876c6443c4ebc97851d1b624462d92a353be
 
 /*
 |--------------------------------------------------------------------------
