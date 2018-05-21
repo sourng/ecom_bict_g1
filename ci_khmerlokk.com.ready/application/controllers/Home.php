@@ -15,7 +15,7 @@ class Home extends CI_Controller {
 		$this->load->view('home');
 
   }
-<<<<<<< HEAD:ci_khmerlokk.com/application/controllers/Home.php
+
   public function rigister(){
   
     $this->load->view('includes/v_rigister');
@@ -24,8 +24,7 @@ class Home extends CI_Controller {
   public function test(){
     echo "hello";
   }
-=======
->>>>>>> 849daa503fe5ddfb6f5874bb4c54ecee75e34f5b:ci_khmerlokk.com.ready/application/controllers/Home.php
+
 
 }
 
