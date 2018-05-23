@@ -5,7 +5,7 @@
            <div class="item">
             <div class="products">
                 <div class="hot-deal-wrapper">
-                    <div class="image"> <img src="assets/images/hot-deals/p25.jpg" alt=""> </div>
+                    <div class="image"> <img src="<?php echo base_url() ?>assets/images/hot-deals/p25.jpg" alt=""> </div>
                     <div class="sale-offer-tag">
                         <span>49%<br>
                                             off</span>

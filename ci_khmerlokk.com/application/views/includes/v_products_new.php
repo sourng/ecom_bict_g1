@@ -17,7 +17,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p1.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p1.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -59,7 +59,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p2.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p2.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -101,7 +101,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p4.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p4.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -143,7 +143,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p3.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p3.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -185,7 +185,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p30.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p30.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -227,7 +227,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p29.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p29.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -278,7 +278,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p5.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p5.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -320,7 +320,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p6.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p6.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -362,7 +362,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p7.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p7.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -404,7 +404,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p8.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p8.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -446,7 +446,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p9.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p9.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -488,7 +488,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p10.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p10.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -539,7 +539,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p11.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p11.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -581,7 +581,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p12.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p12.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -623,7 +623,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p13.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p13.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -665,7 +665,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img src="assets/images/products/p14.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img src="<?php echo base_url() ?>assets/images/products/p14.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -707,7 +707,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p15.jpg" alt="image"></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p15.jpg" alt="image"></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -749,7 +749,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img src="assets/images/products/p16.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img src="<?php echo base_url() ?>assets/images/products/p16.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -800,7 +800,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img src="assets/images/products/p18.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img src="<?php echo base_url() ?>assets/images/products/p18.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -842,7 +842,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p18.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p18.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
@@ -884,7 +884,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p17.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p17.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag sale"><span>sale</span></div>
@@ -926,7 +926,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p16.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p16.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -968,7 +968,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p13.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p13.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag new"><span>new</span></div>
@@ -1010,7 +1010,7 @@
                                             <div class="products">
                                                 <div class="product">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"><img  src="assets/images/products/p14.jpg" alt=""></a> </div>
+                                                        <div class="image"> <a href="#"><img  src="<?php echo base_url() ?>assets/images/products/p14.jpg" alt=""></a> </div>
                                                         <!-- /.image -->
 
                                                         <div class="tag hot"><span>hot</span></div>
