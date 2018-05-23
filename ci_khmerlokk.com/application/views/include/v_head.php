@@ -5,7 +5,7 @@
 <meta name="author" content="">
 <meta name="keywords" content="MediaCenter, Template, eCommerce">
 <meta name="robots" content="all">
-<title>Hexino premium HTML5 & CSS3 Template</title>
+<title>KHMERLOK</title>
 
 <!-- Bootstrap Core CSS -->
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
