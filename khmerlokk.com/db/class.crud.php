@@ -340,4 +340,34 @@ class crud
 		}
 		
 	}
+
+	//new_product
+
+	public function get_new_product($query)
+	{
+		$stmt = $this->db->prepare($query);
+		$stmt->execute();
+	
+		if($stmt->rowCount()>0)
+		{
+			while($row=$stmt->fetch(PDO::FETCH_ASSOC))
+			{
+				?>  
+                <h1 class="name"><?php print ($row['pro_name'])?></h1>
+                
+				
+                <?php
+			}
+		}
+		else
+		{
+			?>
+            
+            <p>No Data..</p>
+            
+            <?php
+		}
+		
+	}
+
 }
