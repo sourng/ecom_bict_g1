@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3 logo-holder"> 
           
-          <div class="logo"> <a href="home"> <img src="assets/images/logo3DKH.png" alt="logo"> </a> </div>
+          <div class="logo"> <a href="index.php"> <img src="assets/images/logo3DKH.png" alt="logo"> </a> </div>
           <!-- /.logo --> 
           </div>
         <!-- /.logo-holder -->

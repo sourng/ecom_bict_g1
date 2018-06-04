@@ -1,5 +1,6 @@
+<?php foreach ($products as $row) {?>
 <div class="product-info">
-							<h1 class="name">Floral Print Buttoned</h1>
+							<h1 class="name"><?php echo $row['pro_name']?></h1>
 							
 							<div class="rating-reviews m-t-20">
 								<div class="row">
@@ -30,7 +31,7 @@
 							</div><!-- /.stock-container -->
 
 							<div class="description-container m-t-20">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							<?php echo $row['pro_detail'] ?>
 							</div><!-- /.description-container -->
 
 							<div class="price-container info-container m-t-20">
@@ -39,7 +40,7 @@
 
 									<div class="col-sm-6">
 										<div class="price-box">
-											<span class="price">$800.00</span>
+											<span class="price">$<?php echo $row['pro_price'] ?></span>
 											<span class="price-strike">$900.00</span>
 										</div>
 									</div>
@@ -94,3 +95,4 @@
 
 							
 						</div><!-- /.product-info -->
+					<?php } ?>

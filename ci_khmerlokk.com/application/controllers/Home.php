@@ -12,13 +12,13 @@ class Home extends CI_Controller {
     }
 	public function index(){
 	
-      $data=array();
+     $data=array();
 
       // $result=$this->mcrud->category();
      //    echo json_encode($result);
-  $SQL="SELECT * FROM categories";
+ // $SQL="SELECT * FROM categories";
 
-  $data['cats']=$this->mcrud->get_by_sql($SQL);
+ // $data['cats']=$this->mcrud->get_by_sql($SQL);
   
 		$this->load->view('home');
 

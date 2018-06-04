@@ -9,7 +9,7 @@
                         <div class="products">
                           <div class="product">
                             <div class="product-image">
-                              <div class="image"> <a href=""><img  src="assets/images/products/p<?php echo $i ?>.jpg" alt=""></a> </div>
+                              <div class="image"> <a href="products_detail.php"><img  src="assets/images/products/p<?php echo $i ?>.jpg" alt=""></a> </div>
                               <!-- /.image -->
                               
                               <div class="tag new"><span>new</span></div>

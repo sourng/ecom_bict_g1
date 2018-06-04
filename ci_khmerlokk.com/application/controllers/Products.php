@@ -40,8 +40,15 @@ class Products extends CI_Controller {
 
 	public function detail(){
 						
-				
-			$this->load->view('products_detail');
+			  $data=array();
+		 $SQL="SELECT * FROM tbl_products WHERE pro_status = 'Y'";
+
+		$data['products']=$this->m_crud->get_by_sql($SQL);
+       
+    
+ 	
+  	
+			$this->load->view('products_detail',$data);
 				
 		}/*End detail*/	
 
