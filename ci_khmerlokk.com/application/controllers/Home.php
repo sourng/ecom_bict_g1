@@ -11,17 +11,11 @@ class Home extends CI_Controller {
  		
     }
 	public function index(){
-	
-     $data=array();
-     //echo json_encode($result);
-      $SQL="SELECT * FROM tbl_categories";
-
-      $data['cats']=$this->m_crud->get_by_sql($SQL);
-  
+    $data=array();
+	 $data['cats']=$this->m_crud->get_by_sql('select * from tbl_categories');
 		$this->load->view('home',$data);
 
   }
-
   public function rigister(){
   
     $this->load->view('includes/v_rigister');
@@ -30,7 +24,6 @@ class Home extends CI_Controller {
   public function test(){
     echo "hello";
   }
-
 
 }
 

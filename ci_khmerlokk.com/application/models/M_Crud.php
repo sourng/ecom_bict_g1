@@ -8,27 +8,27 @@ class M_Crud extends CI_Model {
 
        
 /**
-   * Returns the record by one field
-   *
-   */
-  function get_by_sql($sql, $option=false)
-  {
-    $query  = $this->db->query($sql);
-    
-    if($option == 'trace')
-      print_r($this->db->queries);    
-      
-    if(!empty($query))
-    {
-      $results = array();
-      if ( $query->num_rows() > 0 )
-        $results = $query->result_array();
-      return $results;  
-    }
-  }
-     
-     
-     
+	 * Returns the record by one field
+	 *
+	 */
+	function get_by_sql($sql, $option=false)
+	{
+		$query	= $this->db->query($sql);
+		
+		if($option == 'trace')
+			print_r($this->db->queries);		
+			
+		if(!empty($query))
+		{
+			$results = array();
+			if ( $query->num_rows() > 0 )
+				$results = $query->result_array();
+			return $results;	
+		}
+	}
+	   
+	   
+	   
         public function get_last_ten_items()
         {
                 $query = $this->db->get('items', 10);

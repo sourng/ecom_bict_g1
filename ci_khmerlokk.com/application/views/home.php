@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,9 +36,9 @@
                       $this->load->view('include/v_products_new'); 
                       $this->load->view('include/v_2banner'); 
                       $this->load->view('include/v_banner');                  
-					  $this->load->view('include/v_banner_category');
-             		  $this->load->view('include/v_products_filter');
-             		  $this->load->view('include/v_products');         
+            $this->load->view('include/v_banner_category');
+                  $this->load->view('include/v_products_filter');
+                  $this->load->view('include/v_products');         
            
                      
                     ?>
